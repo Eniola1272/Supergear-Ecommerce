@@ -51,9 +51,30 @@ const Header = () => {
       {/* Search product will go here */}
       
           
+      <div className="flex items-center gap-x-6 text-2xl">
+          <Link to={"/profile"}>
+                          <FiUser className="hover:text-skyText duration-200 cursor-pointer" />
+           
+          </Link>
+          <Link to={"/favorite"} className="relative block">
+            <FiStar className="hover:text-skyText duration-200 cursor-pointer" />
+            <span className="inline-flex items-center justify-center bg-redText text-whiteText absolute -top-1 -right-2 text-[9px] rounded-full w-4 h-4">
+               0
+            </span>
+          </Link>
+          <Link to={"/cart"} className="relative block">
+            <FiShoppingBag className="hover:text-skyText duration-200 cursor-pointer" />
+            <span className="inline-flex items-center justify-center bg-redText text-whiteText absolute -top-1 -right-2 text-[9px] rounded-full w-4 h-4">
+                0
+            </span>
+          </Link>
+        </div>
+
+
+    </div>
+
 
       {/* Menubar */}
-    </div>
     <div className="w-full bg-darkText text-whiteText">
       <Container className="py-2 max-w-4xl flex items-center gap-5 justify-between">
       <p className="flex items-center gap-1 text-2xl">

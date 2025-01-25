@@ -13,14 +13,14 @@ const FooterTop = () => {
         {
           name: "10-year warranty",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
+            "https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2014/png/iconmonstr-certificate-4.png&r=0&g=0&b=0",
           description:
             "If it breaks in the first 10 years we'll replace it. After that you're on your own though.",
         },
         {
           name: "Exchanges",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
+            "https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../releases/preview/2017/png/iconmonstr-connection-8.png&r=0&g=0&b=0",
           description:
             "If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.",
         },

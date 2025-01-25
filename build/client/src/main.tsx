@@ -8,7 +8,7 @@ import Product from './pages/Product';
 import Category from './pages/Category';
 import Profile from './pages/Profile';
 import Cart from './pages/Cart';
-import Favourite from './pages/Favourite';
+import Favorite from './pages/Favorite';
 import Orders from './pages/Orders';
 import Success from './pages/Success';
 import Cancel from './pages/Cancel';
@@ -62,8 +62,8 @@ const router = createBrowserRouter([{
     },
     
     {
-      path: "/favourite",
-      element: <Favourite />,
+      path: "/favorite",
+      element: <Favorite />,
     },
     
     {
