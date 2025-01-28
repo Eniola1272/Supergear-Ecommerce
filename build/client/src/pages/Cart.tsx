@@ -1,8 +1,9 @@
 import React from 'react'
+import Container from '../ui/Container'
 
 const Cart = () => {
   return (
-    <div>Cart</div>
+    <Container>Cart</Container>
   )
 }
 

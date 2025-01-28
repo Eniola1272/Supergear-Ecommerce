@@ -1,8 +1,9 @@
 import React from 'react'
+import Container from '../ui/Container'
 
 const Success = () => {
   return (
-    <div>Success</div>
+    <Container>Success</Container>
   )
 }
 

@@ -1,8 +1,9 @@
 import React from 'react'
+import Container from '../ui/Container'
 
 const Profile = () => {
   return (
-    <div>Profile</div>
+    <Container>Profile</Container>
   )
 }
 

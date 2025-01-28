@@ -1,8 +1,9 @@
 import React from 'react'
+import Container from '../ui/Container'
 
 const Category = () => {
   return (
-    <div>Category</div>
+    <Container>Category</Container>
   )
 }
 
